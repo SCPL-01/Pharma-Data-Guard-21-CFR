@@ -1,0 +1,11 @@
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\obj\Release\PharmaDataGuard.LogVerifier.csprojResolveAssemblyReference.cache
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\bin\Release\PharmaDataGuard.LogVerifier.exe
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\bin\Release\PharmaDataGuard.LogVerifier.pdb
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\bin\Release\mscorlib.dll
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\bin\Release\normidna.nlp
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\bin\Release\normnfc.nlp
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\bin\Release\normnfd.nlp
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\bin\Release\normnfkc.nlp
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\bin\Release\normnfkd.nlp
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\obj\Release\PharmaDataGuard.LogVerifier.exe
+C:\Users\KeyurSorathia\OneDrive - SRIJI COMPUTERS PVT LTD\SCPL\Pharma Copy, Paste &  Delete\PharmaDataGuard.LogVerifier\obj\Release\PharmaDataGuard.LogVerifier.pdb
