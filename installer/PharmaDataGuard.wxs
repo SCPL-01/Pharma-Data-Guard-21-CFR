@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*"
+           Name="Pharma Data Guard 21 CFR"
+           Language="1033"
+           Version="1.0.0.0"
+           Manufacturer="Sriji Computers"
+           UpgradeCode="D3E4F5A6-B7C8-49D0-A0BC-DEF123456789">
+
+    <Package InstallerVersion="500"
+             Compressed="yes"
+             InstallScope="perMachine"
+             Description="Pharma Data Guard 21 CFR — endpoint lockdown for 21 CFR Part 11 / EU GMP Annex 11 data integrity"
+             Manufacturer="Sriji Computers" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of Pharma Data Guard is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <Feature Id="ProductFeature" Title="Pharma Data Guard 21 CFR" Level="1">
+      <ComponentGroupRef Id="PDGComponents" />
+      <ComponentRef Id="RegRunOnStart" />
+    </Feature>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="INSTALLFOLDER" Name="PharmaDataGuard" />
+      </Directory>
+    </Directory>
+
+    <ComponentGroup Id="PDGComponents" Directory="INSTALLFOLDER">
+      <Component Id="PDGExe" Guid="C3D4E5F6-3333-4444-5555-666677778888">
+        <File Id="PDGExeFile"
+              Source="..\PharmaDataGuard\bin\Release\PharmaDataGuard.exe"
+              KeyPath="yes" />
+      </Component>
+      <Component Id="PDGExeConfig" Guid="C3D4E5F6-3333-4444-5555-666677778889">
+        <File Id="PDGExeConfigFile"
+              Source="..\PharmaDataGuard\bin\Release\PharmaDataGuard.exe.config"
+              KeyPath="yes" />
+      </Component>
+      <Component Id="LogVerifierExe" Guid="C3D4E5F6-3333-4444-5555-66667777888A">
+        <File Id="LogVerifierExeFile"
+              Source="..\PharmaDataGuard.LogVerifier\bin\Release\PharmaDataGuard.LogVerifier.exe"
+              KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="RegRunOnStart" Guid="C3D4E5F6-3333-4444-5555-66667777888B">
+        <RegistryValue Root="HKLM"
+                       Key="Software\Microsoft\Windows\CurrentVersion\Run"
+                       Name="PharmaDataGuard"
+                       Type="string"
+                       Value="[INSTALLFOLDER]PharmaDataGuard.exe"
+                       KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+  </Product>
+</Wix>
